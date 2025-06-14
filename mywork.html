@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <title>Mywork - Personal Portfolio</title>
+  </head>
+  <body class="body-container">
+    <section class="header-container">
+      <!-- Header -->
+      <header class="html-header">
+        <h1>Mywork</h1>
+        <img
+          src="./assets/img/bars-solid.svg"
+          alt="Menu"
+          class="hamburger-bar"
+          id="hamburger-bar-id"
+        />
+        <!--Navigation Links-->
+        <nav id="header-nav-container-id" class="header-nav-container">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./resume.html">Resume</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./mywork.html">Mywork</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+      </header>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+      <section class="main-container">
+        <!--2 column articles-->
+        <section class="article-container">
+          <!--Article API app-->
+
+          <article>
+            <header>
+              <h3>Ninja API App</h3>
+            </header>
+            <section>
+              <h4>Try it! By Pick from the following API's</h4>
+              <p class="api-instruction">
+                Step 1: check 1 of the following boxes.
+              </p>
+              <input
+                type="checkbox"
+                id="commodity"
+                name="api"
+                value="commodity"
+              />
+              <label>Commodity</label>
+              <input
+                type="checkbox"
+                id="interest_rate"
+                name="api"
+                value="interest_rate"
+              />
+              <label>Interest Rate</label>
+            </section>
+            <section>
+              <p class="api-instruction">
+                Step 2: select an option from the dropdown.
+              </p>
+              <select id="query" class="api-control">
+                <option value="">Select an option</option>
+              </select>
+              <p class="api-instruction">
+                Step 3: click "Get Response" button.
+              </p>
+              <button id="getResponse" class="api-control">Get Response</button>
+              <p class="api-instruction">Hope you like the results!</p>
+              <div id="response">__awaiting response...</div>
+            </section>
+            <footer>
+              <p class="api-instruction">API powered by Ninja API.</p>
+            </footer>
+          </article>
+          <!--Article API app (end)-->
+          <!--Article 1-->
+          <article>
+            <header>
+              <h3>IoT SumoBot</h3>
+            </header>
+            <section>
+              <h4>Sumo Bot Project</h4>
+              <img
+                src="./assets/img/sumobot-operation.PNG"
+                alt="SumoBot operation diagram"
+                class="article-image"
+              />
+              <p class="article-image">
+                The Sumobot Project involved designing and building a robot
+                capable of both remote control and automation. The project was
+                divided into two stages: Stage 1 focused on creating a
+                functional, wireless-controlled sumobot with the ability to move
+                in all directions on flat surfaces, using a web or app
+                interface. Key components included a metal chassis, compact
+                motors, battery packs, and a Wi-Fi enabled microcontroller.
+                Stage 2 introduced automation, requiring the sumobot to detect
+                and react to a white boundary line using sensors. The software
+                was enhanced to handle sensor inputs and integrated with cloud
+                services for simple control. Challenges like sensor calibration,
+                program interrupts, and environmental factors were addressed,
+                demonstrating advanced skills in hardware integration, software
+                development and cloud-based systems.
+              </p>
+            </section>
+          </article>
+          <!--Article 1 (end)-->
+
+          <!--Article 2-->
+          <article>
+            <header>
+              <h3>Webpage project</h3>
+            </header>
+            <section>
+              <h4>Responsive webpage</h4>
+              <img
+                src="./assets/img/webTech-page.png"
+                alt="Image of Webpage developed"
+                class="article-image"
+              />
+              <p class="article-image">
+                The Responsive Webpage Project involved creating a modern, fully
+                responsive website using HTML5, CSS3 and JavaScript. The goal
+                was to design a visually appealing and user-friendly site that
+                adapts seamlessly to different screen sizes, from desktops to
+                mobile devices. The webpage utilised CSS media queries to adjust
+                layout and content for various devices, ensuring an optimal
+                viewing experience. Interactive elements like dropdown menus,
+                smooth scroll effects and dynamic content loading were
+                integrated using JavaScript. The project showcased skills in
+                responsive design, front-end development and cross-device
+                compatibility, delivering a high-quality, functional webpage.
+              </p>
+            </section>
+          </article>
+          <!--Article 2 (end)-->
+          <!--Article 3-->
+          <article>
+            <header>
+              <h3>Mobile app project</h3>
+            </header>
+            <section>
+              <h4>Crypto watcher App</h4>
+              <img
+                src="./assets/img/mobile-crypto-app.PNG"
+                alt="Mobile Crypto app selection screen"
+                class="article-image"
+              />
+              <p class="article-image">
+                The Crypto Watcher App Project involved developing a mobile
+                application using .NET MAUI with C# for both iOS and Android
+                platforms. The app retrieves live cryptocurrency data from a
+                trading platform API, allowing users to track market trends in
+                real-time. Users can customize their watchlist by selecting
+                cryptocurrencies of interest and set price alerts to notify them
+                when prices fall outside a specified range. Additionally, the
+                app offers a set of analysis tools, including price charts and
+                buy/hold/sell indicators, to assist users in making informed
+                investment decisions. The app was designed for smooth, intuitive
+                user interaction and responsiveness across devices. It
+                demonstrated skills in mobile app development, API integration,
+                real-time data handling, and data visualization while
+                incorporating functionality for both user notifications and
+                market analysis. The result is a powerful, user-friendly tool
+                for cryptocurrency traders.
+              </p>
+            </section>
+          </article>
+          <!--Article 3 (end)-->
+        </section>
+        <!--2 column articles (end)-->
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+      <p>© Copyright 2025 Chi Tsang. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
